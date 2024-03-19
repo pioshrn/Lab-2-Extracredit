@@ -1,40 +1,21 @@
-# Extra Credit 1
+#Description
 
-### Problem Description
-Use frequency analysis to break Caesar’s Cypher. 
-This is a brute force method that tests all the possible displacements and returns the most likely decryption of a text.
-Frequency analysis relies on the fact that some letters (or combination of letters ) occur more in a language, regardless of the text size. 
-For example, in English the letters E, A are the most frequent,while the Z and Q are the least frequent.
-right
+#Problem Description
+The task is to break Caesar's cipher using frequency analysis. Caesar's cipher is a substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet. Frequency analysis exploits the fact that certain letters occur more frequently in a language than others.
 
-
-
-
-## Features
-
-[1] Enter a message
-[2] Compute a histogram of your message
-[3] Permute the message by a degree
-[4] Get the key for Caesar's Cypher
-
-
-
-
-## Installation
-
-Open the terminal, navigate to the desired location of the project using cd and clone the repository using the following command:
-```bash
- git clone https://github.com/TunsTudor-Mircea/OOP_ExtraCredit1.git
-```
-
-## Using the app
-
-Run the ExtraCredit1.exe file, found at: "...\ExtraCredit1\cmake-build-debug\ExtraCredit1.exe"
-
-#####  Pick through the following options:
-
-
-> [1] Enter a message
-> [2] Compute a histogram of your message
-> [3] Permute the message by a degree
-> [4] Get the key for Caesar's Cypher
+Approach
+Frequency Analysis: Analyze the frequency of letters in the encrypted text to identify the most common letters.
+Character Shift: Use the known frequency distribution of letters in the English language to guess the shift value used in the Caesar cipher.
+Brute Force: Try all possible shift values (typically 1-25) and compute the frequency distribution for each decryption attempt. The decrypted text with a frequency distribution closest to the expected distribution for English text is considered the correct decryption.
+Instructions
+Input: Provide the encrypted text to be decrypted.
+Output: The most likely decryption of the text.
+Execution:
+Run the program/script.
+Enter the encrypted text when prompted.
+The program will output the decrypted text using frequency analysis.
+Usage
+Ensure Python is installed on your system.
+Run the provided Python script using python caesar_cipher_decryption.py.
+Follow the on-screen instructions to input the encrypted text.
+The script will output the decrypted text.
