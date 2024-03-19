@@ -1,0 +1,3 @@
+C:/Facultate/Sem 2/OOP/Lab2/Extra credit/OOP_ExtraCredit1-main/cmake-build-debug/CMakeFiles/ExtraCredit1.dir
+C:/Facultate/Sem 2/OOP/Lab2/Extra credit/OOP_ExtraCredit1-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Facultate/Sem 2/OOP/Lab2/Extra credit/OOP_ExtraCredit1-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

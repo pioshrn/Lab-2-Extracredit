@@ -1,0 +1,8 @@
+# ninja log v5
+5	141	7324967571202745	CMakeFiles/ExtraCredit1.dir/main.c.obj	f52dd034fdaa2096
+133	288	7324970025109355	ExtraCredit1.exe	e15a7f533a351eaa
+4	132	7324970023623945	CMakeFiles/ExtraCredit1.dir/functions.c.obj	20870827b7d5d77
+1	238	7324976743791119	build.ninja	ee445d6f883df646
+3	174	7324976746570935	CMakeFiles/ExtraCredit1.dir/main.c.obj	f52dd034fdaa2096
+9	208	7324976746922951	CMakeFiles/ExtraCredit1.dir/functions.c.obj	20870827b7d5d77
+209	375	7324976748550593	ExtraCredit1.exe	e15a7f533a351eaa
